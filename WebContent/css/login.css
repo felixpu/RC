@@ -1,0 +1,173 @@
+#login_body{ background:url(../images/lead_bg.png) repeat-x;}
+#companyIcon {
+	position:absolute;	
+	width:340px;
+	height:200px;
+	z-index:5;
+	background:url(../images/lda.gif) no-repeat; 
+	left: 5px;
+	top: 10px;
+	
+}
+.image1 {	
+	margin-left:-20px;
+	width:110px;
+	height:130px;	
+	background:url(../images/keychain-access.png) no-repeat; 
+	
+}
+#Layer2 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+/*	background:url(images/boy_bg.gif) no-repeat; */
+	left: 52px;
+	top: 16px;
+}
+
+/* ��ҳ*/
+
+body { font-family:Verdana; font-size:14px; margin-top:0px; margin-left:0px; margin-right:0px;}
+.buttonCancel {
+	background-color: transparent;
+	background-image: url(../images/ben6.png);
+	background-repeat: no-repeat;
+	margin: 5px;
+	padding: 5px;
+	height:26px;
+	width:70px;
+	color:#FFFFFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: hand;
+}
+.buttonSubmit {
+	background-color: transparent;
+	background-image: url(../images/ben6.png);
+	background-repeat: no-repeat;
+	margin: 5px;
+	padding: 5px;
+	height:26px;
+	width:70px;
+	color:#FFFFFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: hand;
+}
+
+.i-box {
+	background: #ffffff;
+	width: 350px;
+	border: 1px solid #D9D9D9;
+	margin: 150px auto;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	outline: none;	
+	box-shadow: 3px 3px 12px rgba(217, 217, 217, .5);
+	-moz-box-shadow: 3px 3px 12px rgba(217, 217, 217, .5);
+	-webkit-box-shadow: 3px 3px 12px rgba(217, 217, 217, 3);
+}
+.button-l {
+	font-weight: bold;
+	font-family:"simhei","黑体";
+   	color: white;
+	cursor: pointer;
+	border:1px solid #07a6cc;
+	*-border:0;
+	background: #10daea;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1f8dd6), to(#07a6cc));
+	background: -webkit-linear-gradient(top, #1f8dd6, #07a6cc);
+	background: -moz-linear-gradient(top, #1f8dd6, #07a6cc);
+	background: -ms-linear-gradient(top, #1f8dd6, #07a6cc);
+   	background: -o-linear-gradient(top, #1f8dd6, #07a6cc);
+   	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1f8dd6', endColorstr='#07a6cc', GradientType='0');
+   	-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-shadow: rgba(0,0,0,.14) 0 2px 0;
+}
+.btn-login {
+	width: 280px;
+	height: 44px;
+	font-size: 20px;
+}
+/*----------- i-tbl --------------*/
+.tbl-line {
+	display: block;
+	position: relative;
+}
+
+.tbl-line .sdw {
+	width: 308px;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 30px;
+	overflow: hidden;
+	border:1px solid #efefef;
+	background:#f7f7f7;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+}
+
+.tbl-line .sdw:focus {
+ 	transition:border linear .2s,box-shadow linear .5s;
+ 	-moz-transition:border linear .2s,-moz-box-shadow linear .5s;
+ 	-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+ 	outline:none;
+ 	border-color:rgba(7,166,204,.75);
+ 	box-shadow:0 0 8px rgba(7,166,204,.5);
+ 	-moz-box-shadow:0 0 8px rgba(7,166,204,.5);
+ 	-webkit-box-shadow:0 0 8px rgba(7,166,204,3);
+}
+
+.tbl-line .sdw.wrong {
+ 	transition:border linear .2s,box-shadow linear .5s;
+ 	-moz-transition:border linear .2s,-moz-box-shadow linear .5s;
+ 	-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+ 	outline:none;
+ 	border-color:rgba(255,0,0,.75);
+ 	box-shadow:0 0 8px rgba(255,0,0,.5);
+ 	-moz-box-shadow:0 0 8px rgba(255,0,0,.5);
+ 	-webkit-box-shadow:0 0 8px rgba(255,0,0,3);
+}
+
+.tbl-line .uname-bg {
+	background: url(../images/icons/user.png) no-repeat center center;
+	font-size: 0;
+	width: 30px;
+	height: 30px;
+	position:absolute;
+	top: 1px;
+	left: 1px;
+}
+
+.tbl-line .pswd-bg {
+	background: url(../images/icons/lock.png) no-repeat center center;
+	font-size: 0;
+	width: 30px;
+	height: 30px;
+	position:absolute;
+	top: 1px;
+	left: 1px;
+}
+.tbl-tips {
+	height: 30px;
+	line-height: 30px;
+	display: block;
+}
+.tbl-tips .msg {
+	color: #ff0000;
+	font-size: 12px;
+}

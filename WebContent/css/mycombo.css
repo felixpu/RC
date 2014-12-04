@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+.om-widget input, input.om-widget {
+	padding: 5px;
+}
+input[name=number].om-numberfield {
+	width: 250px;
+	height: 32px;
+}
+
+.om-combo {
+	white-space: nowrap;
+	display: inline-block;
+	height: 30px;	
+}
+.om-combo input[type=text]{
+	padding: 0px;
+	height: 30px;	
+	border: 0px;
+    width: 231px;
+	vertical-align: middle;
+}
+.om-combo .om-combo-trigger {
+	cursor: pointer;
+	display: inline-block;
+	height: 30px;
+	vertical-align: top;
+	width: 19px;
+	background-color: #e6e6e6;
+}
+.om-combo-list-row {
+	height: 30px;
+	line-height: 30px;
+	padding: 0 5px;
+	margin: 1px;
+	overflow-x: hidden;
+	white-space: nowrap;
+	cursor: default;
+}
+.om-combo-selected, .om-state-hover.om-combo-selected {
+	background: #1f8dd6;
+	color: #ffffff;
+}
+.om-btn{
+	height: 23px;
+}
+.om-dialog-buttonset{
+	float: right;
+	margin-top: 4px;
+	height: 23px;
+}
+.om-btn-txt {
+	color: #FFFFFF;
+	line-height: 23px;
+	height: 23px;
+	width:80px;
+	display: inline-block;
+	text-decoration: none;
+	background: none transparent;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow: visible;
+	vertical-align: text-bottom;
+	cursor: pointer;
+}

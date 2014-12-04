@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<COMMINIDATA>
+	<type value='1'>
+		<!-- 卓聘常量start -->
+		<para name='ZP_ZWPJ' value='自我评价' />
+		<para name='ZP_GZJY' value='工作经验' />
+		<para name='ZP_XMJY' value='项目经验' />
+		<para name='ZP_JYBJ' value='教育背景' />
+		<para name='ZP_PXJL' value='培训经历' />
+		<para name='ZP_QTNL' value='其他能力' />
+		<para name='ZP_BCXX' value='补充信息' />
+		<para name='MQXZ' value='目前薪资' />
+		<para name='QWXZ' value='期望薪资' />
+		<para name='ZYMC' value='专业名称' />
+		<para name='DEGREE' value='学历/学位' />
+		<!-- 卓聘常量end -->
+		
+		<!-- 猎聘常量start -->
+		<para name='LXDH' value='联系电话' />
+		<para name='XM' value='姓名' />
+		<para name='GZJL' value='工作经历' />
+		<para name='JYJL' value='教育经历' />
+		<para name='YYNL' value='语言能力' />
+		<para name='FJXX' value='附加消息' />
+		<para name='ZWPJ' value='自我评价' />
+		<!-- 猎聘常量end -->
+	</type>
+
+	<type value='2'>
+		<para name='XINGMING' value='xingming' />
+		<para name='XINGBIE' value='xingbie' />
+		<para name='GONGZUONIANXIAN' value='gongzuonianxian' />
+		<para name='XUELI' value='xueli' />
+		<para name='NIANLING' value='nianling' />
+		<para name='HUNYINZHUANGKUANG' value='hunyinzhuangkuang' />
+		<para name='SUOZAIDI' value='suozaidi' />
+		<para name='LIANXIDIANHUA' value='lianxidianhua' />
+		<para name='DIANZIYOUJIAN' value='dianziyoujian' />
+		<para name='GERENZHUYE' value='gerenzhuye' />
+		<para name='MUQIANXINZI' value='muqianxinzi' />
+		<para name='QIWANGYUEXIN' value='qiwangyuexin' />
+		<para name='BUCHONGXINXI' value='buchongxinxi' />
+		<para name='PEIXUNJINGLI' value='peixunjingli' />
+		<para name='JIAOYUJINGLI' value='jiaoyujingli' />
+		<para name='XIANGMUJINGLI' value='xiangmujingli' />
+		<para name='GONGZUOJINGLI' value='gongzuojingli' />
+		<para name='ZIWOPINGJIA' value='ziwopingjia' />
+		<para name='YUYANNENGLI' value='yuyannengli' />
+		<para name='FUJIAXIAOXI' value='fujiaxiaoxi' />
+		<para name='POSITION' value='zhiwei' />
+	</type>
+
+	<type value='3'>
+		<para name='192.168.1.103' value='Steve：' />
+		<para name='192.168.1.104' value='Zhenyujie：' />
+		<para name='192.168.1.105' value='Nika：' />
+		<para name='192.168.1.106' value='Keby：' />
+		<para name='192.168.1.107' value='Halena：' />
+		<para name='192.168.1.108' value='Chase：' />
+		<para name='192.168.1.109' value='Demi：' />
+		<para name='192.168.1.110' value='Toby：' />
+		<para name='192.168.1.113' value='Felix：' />
+	</type>
+	
+	<type value='4'>
+		<para name='PROFILE' value='F:/tempFile/resumeChange.txt' />
+		<para name='DOCFILE' value='F:/tempFile/docFile/' />
+		<para name='TEMPFILE' value='F:/tempFile/oldFile/' />
+	</type>
+</COMMINIDATA>
