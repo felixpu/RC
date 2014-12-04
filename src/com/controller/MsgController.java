@@ -19,8 +19,6 @@ public class MsgController extends SuperController {
 	@ResponseBody
 	public boolean saveTxt() {
 		return msgService.writeTxt();
-		
-		
 	}
 
 	@RequestMapping(value = "/pages/system/getTxt.do")
